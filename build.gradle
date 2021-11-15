@@ -12,6 +12,7 @@ repositories {
 dependencies {
     testImplementation(
             'org.junit.jupiter:junit-jupiter-api:5.8.1',
+            'com.codeborne:selenide:5.24.0',
             'org.assertj:assertj-core:3.11.1',
             'io.rest-assured:rest-assured:4.4.0'
     )
