@@ -114,4 +114,5 @@ public class ReqresTest {
                 .then()
                 .statusCode(404);
     }
+
 }

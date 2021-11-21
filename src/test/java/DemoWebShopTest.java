@@ -17,7 +17,7 @@ public class DemoWebShopTest {
     public void beforeEach() {
         authCookie = given()
                 .contentType("application/x-www-form-urlencoded; charset=UTF-8")
-                .formParam("Email", "sakovetsdmytryi@gmail.com")
+                .formParam("Email", "") //add email
                 .formParam("Password", "qwerty")
                 .when()
                 .post("http://demowebshop.tricentis.com/login")
